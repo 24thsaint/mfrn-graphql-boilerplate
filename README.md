@@ -1,6 +1,6 @@
-# mfrn-boilerplate
+# mfrn-graphql-boilerplate
 
-> A boilerplate using the MongoDB-FeathersJS-ReactJS-NodeJS stack
+> A boilerplate for the MongoDB, FeathersJS, ReactJS, NodeJS stack with Babel, GraphQL, Webpack, MobX, and Material-UI ready configurations.
 
 ## About
 
@@ -11,13 +11,20 @@ This project uses [Feathers](http://feathersjs.com). An open source web framewor
 Getting up and running is as easy as 1, 2, 3.
 
 1. Make sure you have [NodeJS](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed.
+
 2. Install your dependencies
 
     ```
     cd path/to/mfrn-boilerplate; npm install
     ```
 
-3. Start your app
+3. Build your app
+
+    ```
+    npm run build:full
+    ```
+
+4. Start your app
 
     ```
     npm start
@@ -43,12 +50,6 @@ $ feathers help                           # Show all commands
 ## Help
 
 For more information on all the things you can do with Feathers visit [docs.feathersjs.com](http://docs.feathersjs.com).
-
-## Changelog
-
-__0.1.0__
-
-- Initial release
 
 ## License
 
